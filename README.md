@@ -14,7 +14,9 @@ $y$
 the measured data (sometimes called a sinogram) and 
 $e$
 denotes Gaussian noise.  
-In words, the above minimization process chooses among all solutions of $\Vert Ax-y\Vert\_{l^2}<\\|e\\|\_{l^2}$ the one whose Fourier transform is approximately sparse.
+In words, the above minimization process chooses among all solutions
+$x$
+of $\Vert Ax-y\Vert\_{l^2}<\\|e\\|\_{l^2}$ the one whose Fourier transform is approximately sparse.
 
 ### Contents:
 * `QCBP_fourier.m` Minimization algorithm based on the gradient descent method,
