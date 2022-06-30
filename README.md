@@ -22,13 +22,15 @@ of $\Vert Ax-y\Vert\_{l^2}<\\|e\\|\_{l^2}$ the one whose Fourier transform is ap
 ### Matlab:
 * `QCBP_fourier.m` Minimization algorithm based on the gradient descent method,
 * `demo.m` Demo script that compares the above method to classical filtered backprojection.
-### Dependency:
+
+**Dependencies**:
 * Matlab's Image processing toolbox
 
 ### Python:
 * `cs_algorithms.py` Minimization algorithm based on the gradient descent method,
 * `demo.py` Demo script that compares the above method to classical filtered backprojection.
-### Dependency:
+
+**Dependencies**:
 * `numpy`
 * `matplotlib`
 * `scikit-image`
