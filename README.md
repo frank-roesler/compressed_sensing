@@ -1,6 +1,6 @@
 # Compressed Sensing for the Radon transform
 
-Matlab implementation of an algorithm to solve the [Quadratically Constrained Basis Pursuit (QCBP)](https://en.wikipedia.org/wiki/Basis_pursuit) problem. The algorithm solves the problem 
+This is an implementation of an algorithm to solve the [Quadratically Constrained Basis Pursuit (QCBP)](https://en.wikipedia.org/wiki/Basis_pursuit) problem. The algorithm solves the problem 
 $$\min\_{x\in\mathbb{C}^{N\times N}} \Vert\Phi^* x\Vert\_{l^1} \quad \text{subject to} \quad \Vert Ax-y\Vert\_{l^2}<\\|e\\|\_{l^2},$$
 where $x$ 
 denotes a 
