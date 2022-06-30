@@ -18,11 +18,19 @@ In words, the above minimization process chooses among all solutions
 $x$
 of $\Vert Ax-y\Vert\_{l^2}<\\|e\\|\_{l^2}$ the one whose Fourier transform is approximately sparse.
 
-### Contents:
+## Contents:
+### Matlab:
 * `QCBP_fourier.m` Minimization algorithm based on the gradient descent method,
 * `demo.m` Demo script that compares the above method to classical filtered backprojection.
-
 ### Dependency:
 * Matlab's Image processing toolbox
+
+### Python:
+* `cs_algorithms.py` Minimization algorithm based on the gradient descent method,
+* `demo.py` Demo script that compares the above method to classical filtered backprojection.
+### Dependency:
+* `numpy`
+* `matplotlib`
+* `scikit-image`
 
 Any comments or queries are welcome at https://frank-roesler.github.io/contact/
